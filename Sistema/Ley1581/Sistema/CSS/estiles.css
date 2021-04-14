@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 12pt;
+    letter-spacing: 1px;
+    width: 100%;
+    background-color: seagreen;
+    padding: 20px;
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+#Container{
+    background: dimgrey;
+    width: 100%;
+    min-height:1600px;
+    margin: 0px;
+    padding: 0px;
+    display: -webkit-flex;
+    display:         flex;
+   -webkit-flex-flow: row;
+           flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#Container form{  
+
+    width: 800px;
+    height: 100%;
+    background: #FFF;
+    padding: 10px;
+    align-items: center; 
+
+    margin: 4px;
+    padding: 5px;
+    border-radius: 7pt;
+    
+    -webkit-order: 2;
+            order: 2;
+    
+}
+
+
+#Container form input[type='radio']{
+    padding: 10px;
+    color: #FFF;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;    
+}
+
+#Container form input[type='submit']{
+    width: 100%;
+    background:  seagreen ;
+    padding: 10px;
+    color: #FFF;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#Container form fieldset{
+    width: 98%;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+
+#Container form legend{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.alert{
+    width: 100%;
+    background: #66e07d66;
+    border-radius: 6px;
+    margin: 20px auto;
+    text-align: center;
+}
+.msg_error{
+    color: #e65656;
+}
+.msg_save{
+    color: #126e00;
+}
+.alert p{
+    padding: 10px;
+}
+

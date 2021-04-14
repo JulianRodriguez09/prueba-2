@@ -1,0 +1,91 @@
+  port = <unset>, 
+-->          vswitch = <vim.host.VirtualSwitch:vim.host.VirtualSwitch-vmnet1>, 
+-->          computedPolicy = (vim.host.NetworkPolicy) {
+-->             security = (vim.host.NetworkPolicy.SecurityPolicy) null, 
+-->             nicTeaming = (vim.host.NetworkPolicy.NicTeamingPolicy) null, 
+-->             offloadPolicy = (vim.host.NetOffloadCapabilities) null, 
+-->             shapingPolicy = (vim.host.NetworkPolicy.TrafficShapingPolicy) null
+-->          }, 
+-->          spec = (vim.host.PortGroup.Specification) {
+-->             name = "HostOnly", 
+-->             vlanId = 0, 
+-->             vswitchName = "vmnet1", 
+-->             policy = (vim.host.NetworkPolicy) {
+-->                security = (vim.host.NetworkPolicy.SecurityPolicy) null, 
+-->                nicTeaming = (vim.host.NetworkPolicy.NicTeamingPolicy) null, 
+-->                offloadPolicy = (vim.host.NetOffloadCapabilities) null, 
+-->                shapingPolicy = (vim.host.NetworkPolicy.TrafficShapingPolicy) null
+-->             }
+-->          }
+-->       }, 
+-->       (vim.host.PortGroup) {
+-->          key = "vim.host.portgroup-NAT", 
+-->          port = <unset>, 
+-->          vswitch = <vim.host.VirtualSwitch:vim.host.VirtualSwitch-vmnet8>, 
+-->          computedPolicy = (vim.host.NetworkPolicy) {
+-->             security = (vim.host.NetworkPolicy.SecurityPolicy) null, 
+-->             nicTeaming = (vim.host.NetworkPolicy.NicTeamingPolicy) null, 
+-->             offloadPolicy = (vim.host.NetOffloadCapabilities) null, 
+-->             shapingPolicy = (vim.host.NetworkPolicy.TrafficShapingPolicy) null
+-->          }, 
+-->          spec = (vim.host.PortGroup.Specification) {
+-->             name = "NAT", 
+-->             vlanId = 0, 
+-->             vswitchName = "vmnet8", 
+-->             policy = (vim.host.NetworkPolicy) {
+-->                security = (vim.host.NetworkPolicy.SecurityPolicy) null, 
+-->                nicTeaming = (vim.host.NetworkPolicy.NicTeamingPolicy) null, 
+-->                offloadPolicy = (vim.host.NetOffloadCapabilities) null, 
+-->                shapingPolicy = (vim.host.NetworkPolicy.TrafficShapingPolicy) null
+-->             }
+-->          }
+-->       }
+-->    ], 
+-->    pnic = (vim.host.PhysicalNic) [
+-->       (vim.host.PhysicalNic) {
+-->          key = "\DEVICE\{A909283E-B415-438E-8822-88B1A41BF7A7}", 
+-->          device = "Microsoft Wi-Fi Direct Virtual Adapter #2", 
+-->          pci = "", 
+-->          driver = "", 
+-->          driverVersion = <unset>, 
+-->          firmwareVersion = <unset>, 
+-->          linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+-->          validLinkSpecification = <unset>, 
+-->          spec = (vim.host.PhysicalNic.Specification) {
+-->             ip = (vim.host.IpConfig) {
+-->                dhcp = true, 
+-->                ipAddress = "0.0.0.0", 
+-->                subnetMask = "0.0.0.0", 
+-->                ipV6Config = (vim.host.IpConfig.IpV6AddressConfiguration) null
+-->             }, 
+-->             linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+-->             enableEnhancedNetworkingStack = <unset>
+-->          }, 
+-->          wakeOnLanSupported = false, 
+-->          mac = "84:c9:b2:7c:a1:7c", 
+-->          fcoeConfiguration = (vim.host.FcoeConfig) null, 
+-->          vmDirectPathGen2Supported = <unset>, 
+-->          vmDirectPathGen2SupportedMode = <unset>, 
+-->          resourcePoolSchedulerAllowed = <unset>, 
+-->          resourcePoolSchedulerDisallowedReason = <unset>, 
+-->          autoNegotiateSupported = <unset>, 
+-->          enhancedNetworkingStackSupported = <unset>
+-->       }, 
+-->       (vim.host.PhysicalNic) {
+-->          key = "\DEVICE\{2B20D543-D6FA-440F-AFFB-E4D416D03BC1}", 
+-->          device = "D-Link DWA-525 Wireless N 150 Desktop Adapter", 
+-->          pci = "", 
+-->          driver = "", 
+-->          driverVersion = <unset>, 
+-->          firmwareVersion = <unset>, 
+-->          linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+-->          validLinkSpecification = <unset>, 
+-->          spec = (vim.host.PhysicalNic.Specification) {
+-->             ip = (vim.host.IpConfig) {
+-->                dhcp = true, 
+-->                ipAddress = "10.13.17.190", 
+-->                subnetMask = "255.255.255.128", 
+-->                ipV6Config = (vim.host.IpConfig.IpV6AddressConfiguration) null
+-->             }, 
+-->             linkSpeed = (vim.host.PhysicalNic.LinkSpeedDuplex) null, 
+-->             enableEnhancedNetworkingStack = <unset>

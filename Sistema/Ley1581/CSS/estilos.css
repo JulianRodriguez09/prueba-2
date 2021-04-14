@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 12pt;
+    letter-spacing: 1px;
+    width: 100%;
+    background-color: seagreen;
+    padding: 20px;
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+#Container{
+    background: dimgrey;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: -webkit-flex;
+    display:         flex;
+   -webkit-flex-flow: row;
+           flex-flow: row;
+    justify-content: center;
+   
+   
+}
+
+
+
+#Container > form{  
+    width: 800px;
+    height: 100%;
+    background: #FFF;
+    margin: 4px;
+    
+    border-radius: 7pt;
+    
+    -webkit-order: 2;
+            order: 2;
+    
+}
+
+
+
+#Container form img{
+    margin: -5px auto;  
+    width: 150px;
+    height: 30px;
+    
+}
+
+#Container form input{  
+    padding: 5px;
+    font-size: 16pt; 
+    margin: 10px;
+    border-radius: 1px;
+    
+}
+
+#Container form input[type='radio']{
+    padding: 10px;
+    color: #FFF;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;    
+}
+
+#Container form input[type='submit']{
+    width: 98%;
+    background:  seagreen ;
+    padding: 10px;
+    color: #FFF;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+ #Container form fieldset{
+    
+    width: 98%;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    
+    
+}
+
+.mayus{
+    text-transform: uppercase;
+}
+
+#Container form input[type='text']{
+    border-radius: 5px;
+    border: 1px solid #85929e;
+    text-align: center;
+    
+}
+
+#Container form input[type='email']{
+    border-radius: 5px;
+    border: 1px solid #85929e;
+    text-align: center;
+    
+}
+#Container form input[type='number']{
+    border-radius: 5px;
+    border: 1px solid #85929e;
+    text-align: center;
+    
+}
+
+.alert{
+    width: 100%;
+    background: #66e07d66;
+    border-radius: 6px;
+    margin: 20px auto;
+    text-align: center;
+}
+.msg_error{
+    color: #e65656;
+}
+.msg_save{
+    color: #126e00;
+}
+.alert p{
+    padding: 10px;
+}
+
+
+
+#Containers{
+    background: dimgrey;
+   
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: -webkit-flex;
+    display:         flex;
+   -webkit-flex-flow: row;
+           flex-flow: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+#Containers > form{  
+    width: 800px;
+    height: 100%;
+    background: #FFF;
+    padding: 10px;
+    align-items: center; 
+
+    margin: 4px;
+    padding: 5px;
+    border-radius: 7pt;
+    
+    -webkit-order: 2;
+            order: 2;
+    
+}
+#Containers form img{
+    margin: -5px auto;  
+    width: 25px;
+    height: 25px;
+    
+}
+
+#Containers form input[type='submit']{
+    width: 100%;
+    background:  seagreen ;
+    padding: 10px;
+    color: #FFF;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+#Containers form table{
+    border-collapse: collapse;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    
+    background: rgb(187, 184, 184);
+}
+
+
+table tr:nth-child(odd){
+    background: #FFF;
+
+}
+table td{
+    padding: 10px;
+}
