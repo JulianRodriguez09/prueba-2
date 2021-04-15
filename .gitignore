@@ -1,5 +1,6 @@
 #Ignorar carpetas de Conexion.
 Sistema/Ley1581/Conexion/
 Conexion/
-archivosempresa/**/*.PDF
+#ignorar archivos en carpetas
+archivosempresa/Politicas/**/*.PDF
 Sistema/ReportesEvaluacion1581/Sistema/archivos/**/*.PDF
